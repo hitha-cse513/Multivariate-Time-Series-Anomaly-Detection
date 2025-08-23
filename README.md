@@ -38,6 +38,17 @@ Organizations monitor multiple sensors or IoT devices to identify potential issu
 - CLI-based: no GUI required.  
 
 ---
+## Key Modules
+
+| Module           | Purpose                                                                                  |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| `data.py`        | Handles data preprocessing, splitting, timestamp validation, and missing value handling. |
+| `model.py`       | Implements PCA and Isolation Forest anomaly detection models.                            |
+| `scoring.py`     | Scales raw anomaly scores to 0–100 percentiles.                                          |
+| `attribution.py` | Identifies top contributing features for each anomaly.                                   |
+| `io_utils.py`    | Reads/writes CSVs with augmented columns.                                                |
+| `main.py`        | CLI entry point orchestrating the full MTSAD pipeline.                                   |
+| `config.py`      | Default constants for training and analysis periods, timestamp column, etc.              |
 
 ## Requirements
 Python 3.9+ with the following packages:  

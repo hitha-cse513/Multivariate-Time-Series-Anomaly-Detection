@@ -45,6 +45,7 @@ Python 3.9+ with the following packages:
 pandas>=2.0.0
 numpy>=1.24.0
 scikit-learn>=1.3.0
+```
 
 ## Installation
 
@@ -52,7 +53,7 @@ scikit-learn>=1.3.0
 ```bash
 git clone "https://github.com/hitha-cse513/Multivariate-Time-Series-Anomaly-Detection"
 cd mtsad
-
+```
 2.Create a virtual environment and activate it:
 ```bash
 python -m venv venv
@@ -60,24 +61,25 @@ python -m venv venv
 venv\Scripts\activate
 # Linux/macOS
 source venv/bin/activate
-
+```
 3.Install required packages:
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 CLI Usage
 Run the anomaly detection pipeline using the CLI:
 ```bash
 python -m mtsad.main --input_csv input.csv --output_csv output.csv
-
+```
 
 ## Optional: Validation of Training
 
 To check anomaly scores on the training period:
 ```bash
 python -m mtsad.main --input_csv pollution.csv --output_csv output.csv --validate_training
-
+```
 
 ## Output
 

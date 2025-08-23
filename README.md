@@ -38,6 +38,7 @@ Organizations monitor multiple sensors or IoT devices to identify potential issu
 - CLI-based: no GUI required.  
 
 ---
+
 ## Key Modules
 
 | Module           | Purpose                                                                                  |

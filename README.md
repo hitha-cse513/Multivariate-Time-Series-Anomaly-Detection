@@ -80,6 +80,10 @@ To check anomaly scores on the training period:
 ```bash
 python -m mtsad.main --input_csv pollution.csv --output_csv output.csv --validate_training
 ```
+Sample output:
+```bash
+[Training validation] mean=0.37, max=7.72
+```
 
 ## Output
 

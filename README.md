@@ -35,7 +35,7 @@ Organizations monitor multiple sensors or IoT devices to identify potential issu
 - Calculates **top 7 contributing features** for anomalies.  
 - Handles **constant features, missing data, and small zero-variance noise**.  
 - Validates **training anomalies** to ensure mean <10 and max <25.  
-- CLI-based: no GUI required.  
+ 
 
 ---
 

@@ -52,7 +52,7 @@ scikit-learn>=1.3.0
 1. Clone the repository:  
 ```bash
 git clone "https://github.com/hitha-cse513/Multivariate-Time-Series-Anomaly-Detection"
-cd mtsad
+cd Multivariate-Time-Series-Anomaly-Detection
 ```
 2.Create a virtual environment and activate it:
 ```bash

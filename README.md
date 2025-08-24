@@ -99,10 +99,10 @@ Sample output:
 ## Optional: Plotting
 
 To plot Abnormality scores vs Time:
-'''bash
+```bash
+pip install matplotlip
 python plotting.py
-'''
-
+```
 Sample output:
 <img src="https://github.com/hitha-cse513/Multivariate-Time-Series-Anomaly-Detection/blob/main/anomaly_plot.png" alt="Abnormality score vs Time plot">  
 

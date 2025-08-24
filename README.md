@@ -96,6 +96,15 @@ Sample output:
 ```bash
 [Training validation] mean=0.37, max=7.72
 ```
+## Optional: Plotting
+
+To plot Abnormality scores vs Time:
+'''bash
+python plotting.py
+'''
+
+Sample output:
+<img src="https://github.com/hitha-cse513/Multivariate-Time-Series-Anomaly-Detection/blob/main/anomaly_plot.png" alt="Abnormality score vs Time plot">  
 
 ## Output
 

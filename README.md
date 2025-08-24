@@ -57,6 +57,7 @@ Python 3.9+ with the following packages:
 pandas>=2.0.0
 numpy>=1.24.0
 scikit-learn>=1.3.0
+scipy >= 1.10.0
 ```
 
 ## Installation
@@ -100,7 +101,7 @@ Sample output:
 
 To plot Abnormality scores vs Time:
 ```bash
-pip install matplotlip
+pip install matplotlib
 python plotting.py
 ```
 Sample output:

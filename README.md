@@ -8,7 +8,6 @@ This project implements a **Python-based machine learning solution to detect ano
 - Identify the **top 7 contributing features** for each anomaly.  
 - Output a CSV with **abnormality scores (0–100)** and top contributing features.  
 
-This is intended for **predictive maintenance, industrial sensor monitoring, and performance analytics**.
 
 ---
 

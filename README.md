@@ -91,7 +91,7 @@ python -m mtsad.main --input_csv input.csv --output_csv output.csv
 
 To check anomaly scores on the training period:
 ```bash
-python -m mtsad.main --input_csv pollution.csv --output_csv output.csv --validate_training
+python -m mtsad.main --input_csv input.csv --output_csv output.csv --validate_training
 ```
 Sample output:
 ```bash
